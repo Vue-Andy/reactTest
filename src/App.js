@@ -11,7 +11,7 @@ function App() {
         <div>I am header</div>
       </header>
       <section id='sec'>
-        <Father></Father>
+        <Father name='lisi'></Father>
       </section>
       <footer>
         <img src={logo} className="App-logo" alt="logo" />
