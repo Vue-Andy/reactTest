@@ -1,0 +1,7 @@
+.father{
+    height:80vh;
+    border:2px solid rebeccapurple;
+    background:#ddd;
+    padding:10px;
+    overflow-y:auto;
+}
