@@ -21,6 +21,7 @@ import eventBind from './components/pages/eventBind/eventBind'
 import state from './components/pages/state/state'  
 import styleBind from './components/pages/styleBind/styleBind'  
 import router from './components/pages/router/router'  
+import form from './components/pages/form/form'  
 import './components/Father/father.css'
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
             <NavLink to="/state" activeClassName="active">state</NavLink>
             <NavLink to="/styleBind" activeClassName="active">styleBind</NavLink>
             <NavLink to="/router" activeClassName="active">router</NavLink>
+            <NavLink to="/form" activeClassName="active">form</NavLink>
           </span>
         </header>
         <section id='sec'>
@@ -51,6 +53,7 @@ function App() {
             <Route path='/state' exact component={state}></Route>
             <Route path='/styleBind' exact component={styleBind}></Route>
             <Route path='/router' component={router}></Route>
+            <Route path='/form' component={form}></Route>
             <Route exact render={()=> (<div>404页面</div>)}></Route> */}
 
             {/* 使用Switch是为了将React默认的包容性路由变为排他性路由 */}
@@ -69,6 +72,7 @@ function App() {
               <Route path='/state' component={state}></Route>
               <Route path='/styleBind' component={styleBind}></Route>
               <Route path='/router' component={router}></Route>
+              <Route path='/form' component={form}></Route>
               <Route render={()=> (<div>404页面</div>)}></Route>
             </Switch>
             {/* 上面两种的区别是，使用switch的路由，不会每次都渲染404页面 */}
