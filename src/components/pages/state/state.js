@@ -31,9 +31,11 @@ var Son1 = React.createClass({ // es6已经不支持此方法了
 */
 let style = {
     border:'2px solid #888',
-    background:'#666',
+    background:'#afc5b0',
     padding:'10px',
-    marginTop:'10px'
+    marginTop:'10px',
+    height:'80vh',
+    overflowY:'auto'
 }
 class state extends React.Component{
     constructor(){
@@ -45,7 +47,7 @@ class state extends React.Component{
     }
     render(){
         return (<div className='son5' style={style}>
-            <h3>son5 - State</h3>
+            <h3>state - 状态</h3>
             <div>{this.state.status}</div>
         </div>)
     }

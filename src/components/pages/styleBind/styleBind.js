@@ -7,10 +7,10 @@ import './styleBind.css'
 // 三：直接内联绑定样式，需要使用{{}} 
 
 let style = {fontSize: '12px', color: '#000'};
-let html = <span>可以先声明代码片段，再引入</span>;
+let html = <span>这是先声明再引入的代码片段</span>;
 class styleBind extends React.Component{
   render(){
-    return (<div>
+    return (<div className='styleBind'>
       <h3>样式绑定</h3>
       <div style={style}>样式绑定第一种：行内样式--申明对象，再引用</div>
       <div className='colorRed'>样式绑定第二种：绑定className</div>

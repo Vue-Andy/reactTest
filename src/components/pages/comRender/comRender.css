@@ -1,8 +1,9 @@
-.son3{
+.comRender{
     border:2px solid forestgreen;
     padding:10px;
     margin-top:10px;
-    background:#78f;
+    background:#afc5b0;;
     color:#fff;
-    overflow-y:auto
+    height:80vh;
+    overflow-y:auto;
 }

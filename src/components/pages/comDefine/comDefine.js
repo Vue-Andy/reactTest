@@ -66,8 +66,8 @@ class comDefine extends React.Component{
     son2:'我是默认属性'
   }
   render(){
-    return (<div className='son2'>
-      <h3>son2 - 组件定义</h3>
+    return (<div className='comDefine'>
+      <h3>comDefine - 组件定义</h3>
       <div>默认属性：{this.props.son2}</div>
       <Son name='lisi'></Son>
     </div>)

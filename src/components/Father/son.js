@@ -15,7 +15,7 @@ class son extends React.Component{
       <h3>我是子组件</h3>
       <p>{this.state.msg}</p>
       <p>从父组件传过来的参数为：{this.props.msg}</p>
-      <p><button onClick={this.changeMsg.bind(this)}>点我该表父组件的state</button></p>
+      <p><button onClick={this.changeMsg.bind(this)}>点我改变父组件的state</button></p>
     </div>)
   }
 }

@@ -65,8 +65,8 @@ export default class comRender extends React.Component{
             button = <Logout click={this.logout.bind(this)} />
         }
         return (
-            <div className='son3'>
-                <h3>son3 - 组件渲染</h3>
+            <div className='comRender'>
+                <h3>comRender - 组件渲染</h3>
                 {button}
                 <ul>
                     {lis}

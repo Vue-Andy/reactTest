@@ -1,6 +1,8 @@
-.son1{
+.jsx{
     border:2px solid teal;
     padding:10px;
     margin-top:10px;
     background:#afc5b0;
+    height:80vh;
+    overflow-y:auto;
 }

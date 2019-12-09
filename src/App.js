@@ -22,7 +22,6 @@ import state from './components/pages/state/state'
 import styleBind from './components/pages/styleBind/styleBind'  
 import router from './components/pages/router/router'  
 import form from './components/pages/form/form'  
-import './components/Father/father.css'
 function App() {
   return (
     <div className="App">

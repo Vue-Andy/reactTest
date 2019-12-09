@@ -52,8 +52,8 @@ export default class eventBind extends React.Component{
   }
   render(){
     return (
-      <div className='son4'>
-        <h3>son4 - 组件事件</h3>
+      <div className='eventBind'>
+        <h3>eventBind - 组件事件</h3>
         <div>{this.state.msg}</div>
         <button onClick={this.handleClick.bind(this)}>click me!</button> <br/>
         <input type="text" name="name" placeholder="" ref="name"/>

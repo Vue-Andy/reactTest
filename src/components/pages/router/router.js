@@ -1,4 +1,5 @@
 import React from 'react'
+import './router.css'
 import {
   Route,
   // Switch,
@@ -15,7 +16,7 @@ const id = 152
 class router extends React.Component{
   render() {
     return (
-      <div>
+      <div className='routerCom'>
         <Router>
           <Link to={`/router/foodlist/${id}`}>foodlist</Link>&nbsp;&nbsp;&nbsp;
           <Link to="/router/foodmenu">foodmenu</Link>

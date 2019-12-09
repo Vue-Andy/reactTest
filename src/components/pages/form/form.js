@@ -1,4 +1,5 @@
-const React = require('react')
+import './formCom.css'
+const React = require('react');
 class form extends React.Component{
   constructor(props){
     super(props)
@@ -24,7 +25,7 @@ class form extends React.Component{
   }
   render() {
     return (
-      <div>
+      <div className='formCom'>
         <h3>input输入框</h3>
         <p><label>写死value-锁定状态</label><input type="text" value="hello react" onChange={(ev)=> this.change(ev,1)}/></p>
         <p><label>动态value-没锁状态</label><input type="text" value={this.state.text} onChange={(ev)=> this.change(ev,2)}/></p>

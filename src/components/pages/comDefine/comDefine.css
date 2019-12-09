@@ -1,8 +1,9 @@
-.son2{
+.comDefine{
     border:2px solid forestgreen;
     padding:10px;
     margin-top:10px;
-    background:#608858;
+    background:#afc5b0;;
     color:#fff;
+    height:80vh;
     overflow-y: auto;
 }

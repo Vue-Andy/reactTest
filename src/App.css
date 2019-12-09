@@ -22,9 +22,12 @@ input[type=button],button{height:30px;line-height: 30px;background:#0aa1ed;borde
   min-height: 10vh;
   display: flex;
   align-items: center;
-  justify-content: space-between;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+.App > section{
+  height:80vh;
+  overflow-y:auto;
 }
 .App-header a{
   display:inline-block;
@@ -38,6 +41,7 @@ footer{
   width:100%;
   position:absolute;
   bottom:0;
+  background:cadetblue;
 }
 .App-link {
   color: #61dafb;
@@ -50,7 +54,4 @@ footer{
   to {
     transform: rotate(360deg);
   }
-}
-footer{
-  background:cadetblue;
 }
